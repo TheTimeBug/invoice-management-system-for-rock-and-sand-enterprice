@@ -1,0 +1,90 @@
+.text-red {
+    color: red;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+.margin-20-non_bottom {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.top-margin-5 {
+    margin-top: 5%;
+}
+
+.float-end {
+    float: right;
+}
+
+.top-margin-30 {
+    margin-top: 40%;
+}
+
+.top-margin-20 {
+    margin-top: 20%;
+}
+
+.top-margin-5 {
+    margin-top: 5%;
+}
+
+.margin-0 {
+    margin: 0px;
+}
+
+.fullmodal {
+    padding: 0 !important;
+}
+
+.fullmodal .fullmodal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+
+.fullmodal .fullmodal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+.fullmodal .fullmodal-body {
+    overflow-y: auto;
+}
+
+.width-900 {
+    max-width: 900px;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.m-b-5px {
+    margin-bottom: 5px;
+}
+
+.width-65px {
+    width: 65px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.center-element {
+    margin: 0px auto;
+}
+
+.height-200 {
+    height: 200px;
+}

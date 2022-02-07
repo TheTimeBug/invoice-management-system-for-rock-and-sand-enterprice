@@ -1,0 +1,554 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #535353;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.login-box .alert {
+    padding: 10.5px 20px;
+    font-size: 13px;
+    border: none !important;
+    border-radius: 3px;
+}
+
+.login-box .alert-dismissible .btn-close {
+    padding: 13.5px 14px;
+    background-size: 8px;
+}
+
+.login-box .alert-dismissible .btn-close:focus,
+.login-box .alert-dismissible .btn-close:active {
+    box-shadow: none;
+}
+
+.login-box .password-indicator {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 500ms;
+    font-size: 17px;
+    color: #999;
+}
+
+.login-box .password-wrapper:hover .password-indicator {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 500ms;
+    font-size: 17px;
+    color: #555;
+}
+
+.login-box .login-popover {
+    font-size: 14px;
+    color: #777;
+    cursor: help;
+}
+
+.login-box .login-popover-abs {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.popover {
+    border: 1px solid #ebeef5 !important;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.popover-header {
+    box-shadow: none;
+    border: 0px;
+    background: #fff;
+    color: #555;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 5px;
+}
+
+.popover-body {
+    padding: 5px 10px 10px 16px;
+    color: #777;
+    font-size: 13px;
+}
+
+.login-box .form-group label.error {
+    font-size: 13px;
+    text-align: left;
+    color: #535353;
+    width: 100%;
+}
+
+
+/** Login 7 start **/
+
+.login-7 {
+    background: rgba(0, 0, 0, 0.04) url(../../images/img-8.jpg) top left repeat;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    opacity: 1;
+    z-index: 999;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.login-7 .form-section {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 70px 50px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.login-7 .form-section p {
+    color: #616161;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-7 .form-section a {
+    text-decoration: none;
+}
+
+.login-7 .form-section p a {
+    color: #616161;
+    font-weight: 500;
+}
+
+.login-7 .form-section .extra-login {
+    float: left;
+    width: 100%;
+    margin: 25px 0 25px;
+    text-align: center;
+    position: relative;
+}
+
+.login-7 .form-section .extra-login::before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 1px;
+    background: #d8dcdc;
+    content: "";
+}
+
+.login-7 .form-section .extra-login>span {
+    width: auto;
+    float: none;
+    display: inline-block;
+    background: #fff;
+    padding: 1px 20px;
+    z-index: 1;
+    position: relative;
+    font-size: 15px;
+    color: #616161;
+    text-transform: capitalize;
+}
+
+.login-7 .form-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.login-7 .logo-2 img {
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.login-7 .form-section .social-list li {
+    display: inline-block!important;
+    margin-bottom: 5px;
+}
+
+.login-7 .form-section .social-list li a {
+    font-size: 14px;
+    font-weight: 400;
+    width: 130px;
+    margin: 2px 0 3px 0;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Jost', sans-serif;
+}
+
+.login-7 .form-section .social-list li a i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    float: left;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.login-7 .form-section .social-list li a span {
+    margin-right: 7px;
+}
+
+.login-7 .form-section .thembo {
+    margin-left: 4px;
+}
+
+.login-7 .form-section h3 {
+    margin: 0 0 30px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #313131;
+}
+
+.login-7 .form-section .form-group {
+    margin-bottom: 25px;
+}
+
+.login-7 .form-section .form-control {
+    float: left;
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+}
+
+.login-7 .form-section .form-control {
+    font-size: 16px;
+    outline: none;
+    background: #e8e8e8;
+    color: #616161;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+}
+
+.login-7 .form-section .checkbox .terms {
+    margin-left: 3px;
+}
+
+.login-7 .form-section button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.login-7 .none-2 {
+    display: none;
+}
+
+.login-7 .logo {
+    top: 40px;
+    position: absolute;
+    left: 65px;
+}
+
+.login-7 h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Jost', sans-serif;
+}
+
+.login-7 .form-section .terms {
+    margin-left: 3px;
+}
+
+.login-7 .form-section .form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    background-color: #e8e8e8;
+    margin-left: -22px;
+}
+
+.login-7 .form-section .checkbox {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.login-7 .form-section .form-check {
+    float: left;
+    margin-bottom: 0;
+}
+
+.login-7 .form-section .form-check a {
+    color: #616161;
+    float: right;
+}
+
+.login-7 .form-section .form-check-label {
+    padding-left: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #616161;
+}
+
+.login-7 .form-check-input:checked {
+    background-color: #01c5ff;
+    border-color: #01c5ff;
+}
+
+.login-7 .form-section a.forgot-password {
+    font-size: 16px;
+    color: #616161;
+    float: right;
+}
+
+.login-7 .btn-theme {
+    color: #fff;
+    text-align: center;
+    border: 2px solid transparent;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: all .7s ease;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+}
+
+.login-7 .btn-theme:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .7s ease;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.login-7 .btn-theme:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .7s ease;
+    z-index: -1;
+}
+
+.login-7 .btn-theme:hover {
+    background: transparent;
+}
+
+.login-7 .btn-theme:hover:before {
+    width: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.login-7 .btn-theme:hover:after {
+    width: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.login-7 .btn-lg {
+    padding: 0 50px;
+    line-height: 46px;
+}
+
+.login-7 .btn {
+    box-shadow: none!important;
+}
+
+.login-7 .btn-md {
+    padding: 0 45px;
+    line-height: 41px;
+}
+
+.login-7 .btn-primary {
+    background: #01c5ff;
+}
+
+.login-7 .btn-primary:before {
+    background: #01c5ff;
+}
+
+.login-7 .btn-primary:after {
+    background: #01c5ff;
+}
+
+.login-7 .btn-primary:hover {
+    color: #01c5ff;
+    border: 2px solid #01c5ff;
+}
+
+.login-7 .btn-success {
+    background: #146c43;
+}
+
+.login-7 .btn-success:before {
+    background: #146c43;
+}
+
+.login-7 .btn-success:after {
+    background: #146c43;
+}
+
+.login-7 .btn-success:hover {
+    color: #146c43;
+    border: 2px solid #146c43;
+}
+
+.login-7 .btn-info {
+    background: #31d2f2;
+}
+
+.login-7 .btn-info:before {
+    background: #31d2f2;
+}
+
+.login-7 .btn-info:after {
+    background: #31d2f2;
+}
+
+.login-7 .btn-info:hover {
+    color: #31d2f2;
+    border: 2px solid #31d2f2;
+}
+
+.login-7 .btn-danger {
+    background: #b02a37;
+}
+
+.login-7 .btn-danger:before {
+    background: #b02a37;
+}
+
+.login-7 .btn-danger:after {
+    background: #b02a37;
+}
+
+.login-7 .btn-danger:hover {
+    color: #b02a37;
+    border: 2px solid #b02a37;
+}
+
+.login-7 .btn-dark {
+    background: #1a1e21;
+}
+
+.login-7 .btn-dark:before {
+    background: #1a1e21;
+}
+
+.login-7 .btn-dark:after {
+    background: #1a1e21;
+}
+
+.login-7 .btn-dark:hover {
+    color: #1a1e21;
+    border: 2px solid #1a1e21;
+}
+
+.login-7 .btn-warning {
+    background: #ffcd39;
+}
+
+.login-7 .btn-warning:before {
+    background: #ffcd39;
+}
+
+.login-7 .btn-warning:after {
+    background: #ffcd39;
+}
+
+.login-7 .btn-warning:hover {
+    color: #ffcd39;
+    border: 2px solid #ffcd39;
+}
+
+
+/** Social media **/
+
+.login-7 .facebook-i {
+    background: #4867aa;
+    color: #fff;
+}
+
+.login-7 .twitter-i {
+    background: #33CCFF;
+    color: #fff;
+}
+
+.login-7 .google-i {
+    background: #db4437;
+    color: #fff;
+}
+
+.login-7 .facebook-color {
+    color: #4867aa;
+}
+
+.login-7 .twitter-color {
+    color: #33CCFF;
+}
+
+.login-7 .google-color {
+    color: #db4437;
+}
+
+@media (max-width: 768px) {
+    .login-7 .form-section {
+        padding: 50px 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .login-7 .form-section .social-list li a i {
+        display: none;
+    }
+    .login-7 .form-section .social-list li a {
+        width: 100px;
+    }
+}
+
+
+/** Login 7 end **/
